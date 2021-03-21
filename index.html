@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="ask">
+        <div class="ask_info">г.Пермь</div>
+        <div class="ask_info"><a href="tel:89523333859">8 952 333 38 59</a> </div>
+        <div class="ask_info"><a href="tel:89922385867">8 992 238 58 67</a></div>
+    </div>
+    <header class="header">
+        
+        <div class="header_text"><a href="#">главная</a></div>
+        <div class="header_text"><a href="#1">о нас</a></div>
+        <div class="header_text"><a href="#3">галерея</a></div>
+        <div class="header_text"><a href="#">контакты</a></div>
+        <button class="btn"onclick="window.location.href='#2'" >оставить заявку </button>
+        
+    </header>
+    <section class="leng">
+        <div class="leng_backgraund">
+           <div class="container">
+                <h1 class="leng_backgraund_title">Изготовление объемных букв <br> в Перми на заказ!</h1>
+                <div class="leng_backgraund_descr">Мы сделаем рекламу под ваш бюджет</div>
+                <button class="btn btn_green" onclick="window.location.href='#2'">оставить заявку</button>
+           </div>
+
+
+        </div>
+
+    </section>
+    <section class="advench" id="1" >
+        <div class="container">
+            <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="advench__wrapper">
+                <div class="advench_item">
+                    <img src="icons/manny.png" alt="manny">
+                    <div class="advench__text">Стоимость</div>
+                    <div class="advench_descr">От 40руб/см, изготовлене до 2 дней.</div>
+                </div>
+                <div class="advench_item">
+                    <img src="icons/work.png" alt="work">
+                    <div class="advench__text">Как работаем</div>
+                    <div class="advench_descr">Мы работаем без посредников, а также есть бесплатный выезд на замеры.
+                        </div>
+                </div>
+                <div class="advench_item">
+                    <img src="icons/time.png" alt="time">
+                    <div class="advench__text">График</div>
+                    <div class="advench_descr">Работаем круглосуточно, без выходных, а так же <span>- Гарантия на работу</span> 
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consultation" id="2">
+        
+            <div class="consultation_black">
+                <div class="container">
+                    <h2 class="title title_left">
+                    Получите бесплатную консультацию <br>
+                    </h2>
+                    <div class="consultation__descr">
+                        Просто заполните форму заявки <br>
+                        и мы перезвоним вам в течении 10 минут
+                    </div>
+                    <form class="feed-form" action="#">
+                        <input name="name" required placeholder="Ваше имя*"  type="text">
+                        <input name="phone" id="phon" required placeholder="Ваш телефон*"  type="phone">
+                        <input name="email" required placeholder="Ваш E-mail*"  type="email">
+                        <input name="height" required placeholder="Укажите высоту букв*"  type="number">
+                        <input name="number of letters" required placeholder="Укажите кол-во букв*"  type="number">
+                        <select name="types of letters" required>
+                            <option value="value1">Объемно световые</option>
+                            <option value="value2">Объемно не световые</option>
+                            <option value="value3">Плоские не световые</option>
+                        </select>
+                        <select name="select1" required>
+                            <option value="value1">Прямой шрифт</option>
+                            <option value="value2">Шрифт с засечками</option>
+                        </select>
+
+
+                        <button class="btn btn_submit">Заказать консультацию</button>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <section class="carousel" id="3">
+        <div id="slideshow">
+
+            <ul class="slides">
+                <li><img src="img/53FwTnmvc98.jpg" width="620" height="320" alt="slides" /></li>
+                <li><img src="img/iGUYUGI2f-4.jpg" width="620" height="320" alt="slides" /></li>
+                <li><img src="img/jNRClcnEYmE.jpg" width="620" height="320" alt="slides" /></li>
+                <li><img src="img/MMZNwKRlxbk.jpg" width="620" height="320" alt="slides" /></li>
+            </ul>
+        
+            <span class="arrow previous"></span>
+            <span class="arrow next"></span>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_wrapper">
+                <div>
+                        <div class="footer_social">
+                                <a href="#" class="footer_social_item">
+                                        <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="footer_social_item">
+                                        <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="footer_social_item">
+                                        <i class="fab fa-vk"></i>
+                                </a>
+                                <a href="#" class="footer_social_item">
+                                        <i class="fab fa-instagram"></i>
+                                </a>
+                        </div>
+                </div>
+                <div>
+                        <div class="footer_links">
+                                <div class="footer_links_main">
+                                        <a href="/">главная</a>
+                                        <a href="#">новости</a>
+                                        <a href="#1">продукция</a>
+                                        <a href="#2">отзывы</a>
+                                        <a href="#3">контакты</a>
+                                </div>
+                        </div>
+                </div>
+                <div>
+                        <div class="footer_mobile">
+                                <a href="#">
+                                        <img src="icons/logo/logo white.png" alt="logo">
+                                </a>
+                        </div>
+                </div>
+        </div>
+        <div class="footer_divider"></div>
+    </footer>
+    
+
+</body>
+</html>
